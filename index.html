@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My title</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .gallery{
+            display: inline-block;
+            border: 1px solid gray;
+            margin: 10px;
+            width:35%;
+        }
+        .gallery .description{
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery:hover{
+            border: 5px solid black;
+        }
+
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Linux distros</h1>
+    <div class="gallery">
+        <a target="_blank" href="images/arch.png">
+            <img src="images/arch.png" alt="arch_linux_logo">
+        </a>
+        <div class="description">arch</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/gentoo.png">
+            <img src="images/gentoo.png" alt="gentoo_linux_logo">
+        </a>
+        <div class="description">gentoo</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/ubuntu.png">
+            <img src="images/ubuntu.png" alt="ubuntu">
+        </a>
+        <div class="description">ubuntu</div>
+    </div>
+</body>
+
+</html>
